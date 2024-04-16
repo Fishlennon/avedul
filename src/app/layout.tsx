@@ -21,9 +21,7 @@ export default function RootLayout({
               
       <body className={inter.className}>
       <header>
-      <Link href="/home">
-            Inicio
-          </Link>
+
       </header>
 
         {children}
