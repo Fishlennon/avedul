@@ -8,9 +8,9 @@ interface LayoutProps {
 const Homelayout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
-      <Navbar /> {/* Renderiza el componente NavBar */}
+      <Navbar /> 
       <div>
-        {children} {/* Renderiza el contenido de las páginas hijas */}
+        {children} 
       </div>
     </div>
   );
