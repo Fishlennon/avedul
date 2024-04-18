@@ -1,12 +1,12 @@
 // 'use client'
 
 import Link from 'next/link';
-import { jac,nova } from '../ui/fonts';
+import { jac,nova, Popin } from '../ui/fonts';
 
 const Navbar = () => {
   return (
     <div className=" bg-customGreen">
-        <nav className={`${jac.className} container mx-auto px-4 py-6 flex justify-between items-center`}>
+        <nav className={`${Popin.className} container mx-auto px-4 py-6 flex justify-between items-center`}>
           <div className="flex items-center">
 
           <Link href="/" className="text-white font-bold text-xl  hover:text-white mr-6" >
