@@ -9,7 +9,7 @@ const Homelayout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <Navbar /> 
-      <div>
+      <div className="text-black">
         {children} 
       </div>
     </div>
