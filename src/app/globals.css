@@ -19,13 +19,13 @@
 
   body {
     color: rgb(var(--foreground-rgb));
-    background-image: url('https://storage.googleapis.com/visual_chat_results/tools/mFYa8nBRfthB9KmrNrZIOG1P6kr2/79457466.jpg');
+    /* background-image: url('https://storage.googleapis.com/visual_chat_results/tools/mFYa8nBRfthB9KmrNrZIOG1P6kr2/79457466.jpg'); */
     /* background-image: url('https://storage.googleapis.com/visual_chat_results/tools/mFYa8nBRfthB9KmrNrZIOG1P6kr2/46990228.jpg'); */
     /* background-image: url('https://storage.googleapis.com/visual_chat_results/tools/mFYa8nBRfthB9KmrNrZIOG1P6kr2/93148195.jpg'); */
     /* background-image: url('https://storage.googleapis.com/visual_chat_results/tools/mFYa8nBRfthB9KmrNrZIOG1P6kr2/90709244.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #e9eeee;
   }
   
 }
