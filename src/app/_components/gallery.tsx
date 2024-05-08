@@ -1,9 +1,9 @@
 
 
 
-export default function Galery () {
+export default function Gallery () {
     return(
-        <div>
+        <div id="gallery">
             <h1>Galeria</h1>
         </div>
     )

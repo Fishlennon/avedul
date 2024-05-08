@@ -31,7 +31,7 @@ export default function Contact({ onFormSubmit }: ContactFormProps) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen ">
+    <div className="flex flex-col items-center justify-center min-h-screen " id="contact">
       <h1 className="mb-5 text-3xl font-bold">Contacto</h1>
       <form onSubmit={handleSubmit} className="w-full max-w-md bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2">

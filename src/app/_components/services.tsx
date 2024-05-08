@@ -3,7 +3,7 @@
 
 export default function Services () {
     return(
-        <div>
+        <div id="services">
             <h1>Servicios</h1>
         </div>
     )
