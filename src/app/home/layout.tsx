@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import Navbar from './navBar'; // Ajusta la ruta según la ubicación de tu componente NavBar
+import Navbar from '../navBar'; // Ajusta la ruta según la ubicación de tu componente NavBar
 
 interface LayoutProps {
   children: ReactNode;
