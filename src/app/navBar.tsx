@@ -1,38 +1,48 @@
 // 'use client'
-
-import Link from 'next/link';
 import { jac,nova, Popin } from './ui/fonts';
 
 const Navbar = () => {
+
+  const scrollToSelector = (selector: string) => {
+    if (typeof window === 'undefined') return;
+  
+    const element = document.querySelector(selector);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
+
   return (
     <div className=" bg-customGreen">
         <nav className={`${Popin.className} container mx-auto px-4 py-6 flex justify-between items-center`}>
           <div className="flex items-center">
 
-          <Link href="/" className="text-white font-bold text-xl  hover:text-white mr-6" >
+          <a href="/" className="text-white font-bold text-xl  hover:text-white mr-6" >
           Inicio
-          </Link>
+          </a>
 
        
-          <Link href="/about" className="text-white  hover:text-white mr-6">
+          <a onClick={() => scrollToSelector('#about')} className="text-white  hover:text-white mr-6">
             Sobre avedul
-          </Link>
+          </a>
        
-          <Link href="/services" className="text-white  hover:text-white mr-6">
+          <a onClick={() => scrollToSelector('#services')} className="text-white  hover:text-white mr-6">
             Servicios
-          </Link>
+          </a>
 
-          <Link href="/galery" className="text-white  hover:text-white mr-6">
+          <a onClick={() => scrollToSelector('#gallery')} className="text-white  hover:text-white mr-6">
             Galeria
-          </Link>
+          </a>
 
-          <Link href="/music" className={`text-white  hover:text-white mr-6`}>
+          <a onClick={() => scrollToSelector('#music')} className={`text-white  hover:text-white mr-6`}>
           Musica
-          </Link>
+          </a>
 
-          <Link href="/contact" className={`text-white  hover:text-white mr-6`}>
+          <a onClick={() => scrollToSelector('#contact')} className={`text-white  hover:text-white mr-6`}>
             Contacto
-          </Link>
+          </a>
           </div>
 
         </nav>
