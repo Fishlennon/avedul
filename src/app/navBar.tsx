@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 import { jac,nova, Popin } from './ui/fonts';
 
 const Navbar = () => {
