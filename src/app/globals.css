@@ -27,5 +27,7 @@
     background-size: cover;
     background-color: #e9eeee;
   }
-  
+  /* html {
+    scroll-behavior: smooth;
+  } */
 }

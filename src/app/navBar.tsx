@@ -8,7 +8,9 @@ const Navbar = () => {
   
     const element = document.querySelector(selector);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const navHeight = document.querySelector('nav')?.offsetHeight || 0;
+      element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+      window.scrollBy(0, -navHeight);
     }
   };
 

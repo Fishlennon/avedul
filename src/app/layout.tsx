@@ -21,9 +21,11 @@ export default function RootLayout({
     <html lang="en">
               
       <body className={inter.className}>
-      <div>
-      <Navbar /> 
-      <div className="text-black">
+        <div className="fixed top-0 w-full bg-white z-50">
+      <Navbar />
+        </div>
+      <div >
+      <div className="text-black mt-16">
         {children} 
       </div>
     </div>
